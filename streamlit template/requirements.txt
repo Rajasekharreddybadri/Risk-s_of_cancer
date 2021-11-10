@@ -1,0 +1,8 @@
+flask==1.0.2
+seaborn
+streamlit
+numpy 
+pandas
+matplotlib
+seaborn
+streamlit
