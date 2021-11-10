@@ -221,7 +221,7 @@ st.header(f"Male cancer patients{len(cancer_patient_male)},FeMale cancer patient
 
 ####################
 
-fig, ax=plt.subplots(figsize = (10, 6))#Required outside of function. This needs to be activated first when plotting in every code block
+fig, ax=plt.subplots(figsize = (10, 6))
 plot=sns.scatterplot(data=cancer_patient, 
                      x='Alcohol use',
                      y='Fatigue', 
@@ -233,7 +233,7 @@ st.write(fig)
 
 ###################
 
-fig, ax=plt.subplots(figsize = (10, 6))#Required outside of function. This needs to be activated first when plotting in every code block
+fig, ax=plt.subplots(figsize = (10, 6))
 plot=sns.scatterplot(data=cancer_patient, 
                      x='Genetic Risk',
                      y='Smoking', 
