@@ -10,13 +10,5 @@ st.title("Hello")
 st.header("frhfkjerh")
 st.subheader("sub")
 st.text("text")
-st.markdown("""#h1
-##h2
-###h3 
-:moon:<br>
-:sunglasses:
-## bold ##
-_ italics_ 
-""",True)
-st.latext()
+
 st.write("jgfjgf")
